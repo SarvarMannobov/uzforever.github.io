@@ -1,0 +1,49 @@
+
+    <form class="elements">
+        <div class="cardface">
+          <div class="card-number">
+            <label class="card-number__number">Номер карты</label>
+            <input class="card-number__data" type="text" id="numberplace1" required>
+            <input class="card-number__data" type="text" id="numberplace2" required>
+            <input class="card-number__data" type="text" id="numberplace3" required>
+            <input class="card-number__data" type="text" id="numberplace4" required>
+          </div>
+       
+          <div class="card-date">
+            <label class="card-date__validity">Срок действия</label>
+            <select class="card-date__data" id="datemonth">
+              <option>01</option>
+              <option>02</option>
+              <option>03</option>
+              <option>04</option>
+              <option>05</option>
+              <option>06</option>
+              <option>07</option>
+              <option>08</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+            <select class="card-date__data" id="dateyear">
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+            </select>
+          </div>
+       
+          <div class="card-name">
+            <input class="card-name__holder" type="text" id="cardname" placeholder="Держатель карты" required>
+          </div>
+        </div>
+       
+        <div class="cardback">
+          <div class="cardback__band"></div>
+          <label class="cardback__code">Код CVV2 / CVC2</label>
+          <input class="cardback__cvv" type="text" id="cvv" required>
+        </div>
+       
+        <button class="button" type="submit">Оплатить</button>
+      </form>
